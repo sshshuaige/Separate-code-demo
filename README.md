@@ -1,0 +1,3 @@
+# Separate-code-demo
+demo使用nodejs分离了html中的css代码和js代码到不同的文件中
+学习nodejs时的一个小应用
