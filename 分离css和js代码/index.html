@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .big {
+            height: 500px;
+            width: 500px;
+            background-color: pink;
+        }
+        .small {
+            height: 300px;
+            width: 300px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="big"></div>
+    <div class="small"></div>
+</body>
+<script>
+    var big = document.querySelector('.big')
+    var small = document.querySelector('.small')
+    small.onclick = function(){
+        alert('点击到了小盒子')
+    }
+</script>
+</html>
